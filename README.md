@@ -12,7 +12,7 @@ case use it all you want.
 Current Data Structures and Status
 -----------------------------------
 
-* ArrayList: An implementation of a dynamically sized array. <Complete> <Has test cases> 
+* ArrayList: An implementation of a dynamically sized array. {COMPLETE} {HAS TEST CASES} 
 
 Test Status
 ------------
