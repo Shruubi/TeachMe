@@ -9,6 +9,11 @@ possible ways to implement certain .NET collections. This is meant as a programm
 probably should not be used in any production manner, unless of course, my implementation is awesome, in which
 case use it all you want.
 
+Current Data Structures and Status
+-----------------------------------
+
+* ArrayList: An implementation of a dynamically sized array. <Complete> <Has test cases> 
+
 Test Status
 ------------
 
