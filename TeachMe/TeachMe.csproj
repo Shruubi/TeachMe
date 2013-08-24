@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Algorithms\Searcher.cs" />
+    <Compile Include="Algorithms\Sorter.cs" />
     <Compile Include="Structures\ArrayList.cs" />
     <Compile Include="Structures\Deque.cs" />
     <Compile Include="NodeTypes\SinglyLinkedNode.cs" />

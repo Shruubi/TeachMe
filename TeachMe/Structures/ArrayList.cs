@@ -13,7 +13,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace TeachMe
+namespace TeachMe.Structures
 {
     public class ArrayList<T> : 
         ICollection<T>, IEnumerable<T> //we include ICollection to generate methods and IEnumerable for foreach support

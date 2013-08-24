@@ -14,7 +14,7 @@ using System.Collections.Generic;
 
 using TeachMe.NodeTypes;
 
-namespace TeachMe
+namespace TeachMe.Structures
 {
     public class Deque<T> :
         ICollection<T>, IEnumerable<T>

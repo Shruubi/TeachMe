@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using TeachMe;
+
+using TeachMe.Structures;
 
 namespace TeachMeTests
 {
