@@ -5,7 +5,7 @@
  * most efficient algorithm for doing tasks, instead choosing one that demonstrates the functions and purpose of the data structure.
  * 
  * Written by: Damon Swayn
- * Modified Date: 19/08/2013
+ * Modified Date: 24/08/2013
  * License: BSD
  */
 

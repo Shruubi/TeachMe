@@ -39,9 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArrayList.cs" />
-    <Compile Include="Deque.cs" />
-    <Compile Include="NodeTypes\DoublyLinkedNode.cs" />
+    <Compile Include="Algorithms\Searcher.cs" />
+    <Compile Include="Structures\ArrayList.cs" />
+    <Compile Include="Structures\Deque.cs" />
     <Compile Include="NodeTypes\SinglyLinkedNode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
