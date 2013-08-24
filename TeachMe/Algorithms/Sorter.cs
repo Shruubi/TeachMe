@@ -114,22 +114,22 @@ namespace TeachMe.Algorithms
 
         private bool isSorted(T[] array)
         {
-            if (list.Count <= 1)
+            if (array.Length <= 1)
                 return true;
-            for (int i = 1; i < list.Count; i++)
-                if (list[i].CompareTo(list[i - 1]) < 0) return false;
+            for (int i = 1; i < array.Length; i++)
+                if (array[i].CompareTo(array[i - 1]) < 0) return false;
             return true;
         }
 
         private void Shuffle(T[] array)
         {
             Random rand = new Random();
-            for (int i = 0; i < list.Count; i++)
+            for (int i = 0; i < array.Length; i++)
             {
-                int swapIndex = rand.Next(list.Count);
-                T temp = list[swapIndex];
-                list[swapIndex] = list[i];
-                list[i] = temp;
+                int swapIndex = rand.Next(array.Length);
+                T temp = array[swapIndex];
+                array[swapIndex] = array[i];
+                array[i] = temp;
             }
         }
 
@@ -139,7 +139,7 @@ namespace TeachMe.Algorithms
             //the concept of bogosort is while the array is not sorted, put the elements in a random order and check if they end up sorted
             while (!isSorted(array))
             {
-                shuffle(array));
+                Shuffle(array);
             }
         }
     }
