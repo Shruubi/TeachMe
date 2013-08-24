@@ -8,6 +8,7 @@ namespace TeachMeTests
     public class ArrayListTest
     {
         [TestMethod]
+        [Timeout(30000)]
         public void TestCreation()
         {
             ArrayList<int> t = new ArrayList<int>();
@@ -15,6 +16,7 @@ namespace TeachMeTests
         }
 
         [TestMethod]
+        [Timeout(30000)]
         public void CanAddValues()
         {
             ArrayList<int> t = new ArrayList<int>();
@@ -30,6 +32,7 @@ namespace TeachMeTests
         }
 
         [TestMethod]
+        [Timeout(30000)]
         public void willResize()
         {
             ArrayList<int> t = new ArrayList<int>();
@@ -43,6 +46,7 @@ namespace TeachMeTests
         }
 
         [TestMethod]
+        [Timeout(30000)]
         public void willClear()
         {
             ArrayList<int> t = new ArrayList<int>();
@@ -53,6 +57,7 @@ namespace TeachMeTests
         }
 
         [TestMethod]
+        [Timeout(30000)]
         public void containsReturnsTrue()
         {
             ArrayList<int> t = new ArrayList<int>();
@@ -66,6 +71,7 @@ namespace TeachMeTests
         }
 
         [TestMethod]
+        [Timeout(30000)]
         public void containsReturnsFalse()
         {
             ArrayList<int> t = new ArrayList<int>();
@@ -79,6 +85,7 @@ namespace TeachMeTests
         }
 
         [TestMethod]
+        [Timeout(30000)]
         public void ensureCopyToCopies()
         {
             ArrayList<int> t = new ArrayList<int>();
@@ -98,6 +105,7 @@ namespace TeachMeTests
         }
 
         [TestMethod]
+        [Timeout(30000)]
         public void removeSuccess()
         {
             ArrayList<int> t = new ArrayList<int>();
@@ -113,6 +121,7 @@ namespace TeachMeTests
         }
 
         [TestMethod]
+        [Timeout(30000)]
         public void removeFail()
         {
             ArrayList<int> t = new ArrayList<int>();
@@ -126,6 +135,7 @@ namespace TeachMeTests
         }
 
         [TestMethod]
+        [Timeout(30000)]
         public void foreachWorks()
         {
             ArrayList<int> t = new ArrayList<int>();

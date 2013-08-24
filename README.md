@@ -12,7 +12,8 @@ case use it all you want.
 Current Data Structures and Status
 -----------------------------------
 
-* ArrayList: An implementation of a dynamically sized array. {COMPLETE} {HAS TEST CASES} 
+* ArrayList: An implementation of a dynamically sized array. {COMPLETE} {HAS TEST CASES}
+* Deque: An implementation of a Deque which can be used either as a stack or a queue. {COMPLETE} {HAS TEST CASES} 
 
 Test Status
 ------------

@@ -40,6 +40,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArrayList.cs" />
+    <Compile Include="Deque.cs" />
+    <Compile Include="NodeTypes\DoublyLinkedNode.cs" />
+    <Compile Include="NodeTypes\SinglyLinkedNode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
