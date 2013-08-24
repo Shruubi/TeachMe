@@ -28,7 +28,7 @@ namespace TeachMe.Algorithms
             {
                 if (list[i].CompareTo(itemToFind) == 0)
                 {
-                    return i;
+                    return i; //loop from start to finish, if we find our value, return the index we are on
                 }
             }
             return -1;
