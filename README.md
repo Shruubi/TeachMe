@@ -13,7 +13,8 @@ Current Data Structures and Status
 -----------------------------------
 
 * ArrayList: An implementation of a dynamically sized array. {COMPLETE} {HAS TEST CASES}
-* Deque: An implementation of a Deque which can be used either as a stack or a queue. {COMPLETE} {HAS TEST CASES} 
+* Deque: An implementation of a Deque which can be used either as a stack or a queue. {COMPLETE} {HAS TEST CASES}
+* Singly Linked List: An implementation of a Linked List {COMPLETE} {HAS TEST CASES} 
 * Search Algorithms: implementations of linear and binary search on List<T> objects. {COMPLETE} {HAS TEST CASES}
 * Sort Algorithms: implementations of bubble, quick and bogo sort algorithms. {COMPLETE} {HAS TEST CASES}
 

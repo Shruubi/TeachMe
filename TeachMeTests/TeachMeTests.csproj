@@ -55,6 +55,7 @@
     <Compile Include="DequeTest.cs" />
     <Compile Include="SearchTests.cs" />
     <Compile Include="SortTest.cs" />
+    <Compile Include="LinkedListTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TeachMe\TeachMe.csproj">
