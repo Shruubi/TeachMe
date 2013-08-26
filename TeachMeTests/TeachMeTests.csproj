@@ -56,6 +56,7 @@
     <Compile Include="SearchTests.cs" />
     <Compile Include="SortTest.cs" />
     <Compile Include="LinkedListTest.cs" />
+    <Compile Include="DictionaryTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TeachMe\TeachMe.csproj">

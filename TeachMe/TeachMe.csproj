@@ -41,10 +41,12 @@
   <ItemGroup>
     <Compile Include="Algorithms\Searcher.cs" />
     <Compile Include="Algorithms\Sorter.cs" />
+    <Compile Include="NodeTypes\DictionaryNode.cs" />
     <Compile Include="Structures\ArrayList.cs" />
     <Compile Include="Structures\Deque.cs" />
     <Compile Include="NodeTypes\SinglyLinkedNode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structures\Dictionary.cs" />
     <Compile Include="Structures\SinglyLinkedList.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
