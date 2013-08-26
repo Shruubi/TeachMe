@@ -57,14 +57,14 @@ namespace TeachMe.Structures
         {
             get 
             {
-                List<TKey> k = new List<TKey>();
+                List<TKey> k = new List<TKey>(); //list for storing keys
                 DictionaryNode<TKey, TValue> ptr = this.Head;
                 while (ptr != null)
                 {
-                    k.Add(ptr.Data.Key);
-                    ptr = ptr.Next;
+                    k.Add(ptr.Data.Key); //add all the keys to a list
+                    ptr = ptr.Next; //move ptr to the next node
                 }
-                return k;
+                return k; //return the list
             }
         }
 
@@ -113,14 +113,14 @@ namespace TeachMe.Structures
         {
             get
             {
-                List<TValue> k = new List<TValue>();
+                List<TValue> k = new List<TValue>(); //list for storing values
                 DictionaryNode<TKey, TValue> ptr = this.Head;
                 while (ptr != null)
                 {
-                    k.Add(ptr.Data.Value);
-                    ptr = ptr.Next;
+                    k.Add(ptr.Data.Value); //add value to list
+                    ptr = ptr.Next; //move ptr to next value
                 }
-                return k;
+                return k; //return list
             }
         }
 
@@ -139,7 +139,7 @@ namespace TeachMe.Structures
 
                     ptr = ptr.Next; //otherwise move ptr to the next value
                 }
-                throw new InvalidOperationException();
+                throw new InvalidOperationException(); //if the key doesn't exist, throw an exception
             }
             set
             {
@@ -186,6 +186,7 @@ namespace TeachMe.Structures
             DictionaryNode<TKey, TValue> ptr = this.Head;
             while (ptr != null)
             {
+                //if the ptr key and value match the key and value we are looking for, return success
                 if (ptr.Data.Key.CompareTo(item.Key) == 0 &&
                     ptr.Data.Value.CompareTo(item.Value) == 0)
                 {
@@ -227,6 +228,7 @@ namespace TeachMe.Structures
             DictionaryNode<TKey, TValue> prv = null;
             while (ptr != null)
             {
+                //if the key and value match the key and value we are searching for
                 if (ptr.Data.Key.CompareTo(item.Key) == 0 &&
                     ptr.Data.Value.CompareTo(item.Value) == 0)
                 {
@@ -244,12 +246,12 @@ namespace TeachMe.Structures
 
         public IEnumerator<KeyValuePair<TKey, TValue>> GetEnumerator()
         {
-            return new DictionaryEnumerator<TKey, TValue>(this.Head);
+            return new DictionaryEnumerator<TKey, TValue>(this.Head); //get the enumerator object
         }
 
         System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
         {
-            return new DictionaryEnumerator<TKey, TValue>(this.Head);
+            return new DictionaryEnumerator<TKey, TValue>(this.Head); //same as above
         }
     }
 
